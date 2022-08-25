@@ -1,0 +1,118 @@
+:root{
+    --blue:rgb(1, 1, 58);
+    --shadow:rgba(164, 164, 164, 0.469);
+}
+*{
+    margin: 0;
+    padding: 0px;
+}
+
+h1{
+    text-align: center;
+    padding: 0.7em;
+    font-size: 40px;
+    text-transform:uppercase ;
+}
+img{
+    width: 300px;
+}
+.main-header{
+    background-color: var(--blue);
+    color: white;
+    height: 20vh;
+    padding: 2em;
+    font-weight: 900;
+    background-image: url("../img/hero.jpg");
+}
+
+.main-nav a{
+    color: green;
+    text-decoration: none;
+    display: block;
+}
+.main-footer{
+    background-color: var(--blue);
+    color: white;
+}
+
+.main{
+    background-color: rgb(255, 255, 255);
+}
+.sec{
+    width: 80vw;
+    min-height: 80vh;
+    margin: auto;
+    display: flex;
+    box-shadow: 10px 10px 10px var(--shadow),
+                -10px -10px 10px var(--shadow);
+    margin-top: 2.5em;
+    margin-bottom: 1em;
+    padding: 2em;
+    background-color: rgba(240, 248, 255, 0.817);
+
+}
+.web, .datos, .python, .java{
+    height: 100vh;
+}
+
+.pensamiento__int{
+    width: 70%;
+}
+
+.sec{
+    border-radius:7px;
+}
+
+.sec__int, .sec__tem{
+    padding: 1em;
+}
+.sec__int{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec__int>*{
+    padding: 0.5em;
+}
+.sec__int h2{
+    font-size: 30px;
+}
+
+
+.sec__tem{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-nav{
+    width: 80wh;
+    margin: auto;
+
+}
+.menu{
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu li{
+    text-align: center;
+    padding: 1em;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+}
+
+div ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
